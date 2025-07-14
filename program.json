@@ -1,0 +1,59 @@
+{
+    "speaker" : "",
+    "title" : "",
+    "affiliation" : "",
+    "day" : "",
+    "time" : "",
+    "duration" : 30,
+    "abstract" : ""    
+}
+
+Chaitanya Gokhale
+
+On the origins and evolution of endosymbiosis
+
+The abstract:
+
+Endosymbiosis was a transformative event in the history of life, enabling the emergence of complex eukaryotic cells from simpler microbial ancestors. Despite its significance, we do not understand how free-living microbial partnerships transition into obligate, physically integrated symbioses. I will address that gap by synthesising insights from two recent theoretical studies. The first explores how metabolic syntrophy can lead to stable ectosymbiosis. Using an ecological model, we examine how a mutant host capable of binding symbionts on its surface can invade and persist, despite the metabolic cost of reduced active cell area. Our results identify conditions under which close physical contact is favoured and reveal how enhanced metabolic activity can facilitate the transition toward obligate partnerships. Building on this, the second study uses adaptive dynamics to track evolutionary trajectories of host-symbiont collectives, focusing on two key traits: mutual dependence and reproductive cohesion. We show that while mutual dependence evolves relatively easily, reproductive integration is more constrained by ecological factors such as carrying capacity and asymmetric growth rates. Notably, we find that asymmetries in evolutionary pace, captured by processes such as the Red King effect, can drive one-sided obligacy, reflecting patterns often seen in natural symbioses. Taken together, these studies reveal the ecological and evolutionary mechanisms that can drive the transition from cooperation to integration. Our work offers a theoretical framework for understanding one of life’s major transitions and opens avenues for future exploration of cellular complexity.
+
+
+{
+    "speaker" : "",
+    "title" : "",
+    "affiliation" : "",
+    "day" : "",
+    "time" : "",
+    "duration" : 30,
+    "abstract" : ""    
+}
+
+Chaitanya Gokhale
+
+On the origins and evolution of endosymbiosis
+
+The abstract:
+
+Endosymbiosis was a transformative event in the history of life, enabling the emergence of complex eukaryotic cells from simpler microbial ancestors. Despite its significance, we do not understand how free-living microbial partnerships transition into obligate, physically integrated symbioses. I will address that gap by synthesising insights from two recent theoretical studies. The first explores how metabolic syntrophy can lead to stable ectosymbiosis. Using an ecological model, we examine how a mutant host capable of binding symbionts on its surface can invade and persist, despite the metabolic cost of reduced active cell area. Our results identify conditions under which close physical contact is favoured and reveal how enhanced metabolic activity can facilitate the transition toward obligate partnerships. Building on this, the second study uses adaptive dynamics to track evolutionary trajectories of host-symbiont collectives, focusing on two key traits: mutual dependence and reproductive cohesion. We show that while mutual dependence evolves relatively easily, reproductive integration is more constrained by ecological factors such as carrying capacity and asymmetric growth rates. Notably, we find that asymmetries in evolutionary pace, captured by processes such as the Red King effect, can drive one-sided obligacy, reflecting patterns often seen in natural symbioses. Taken together, these studies reveal the ecological and evolutionary mechanisms that can drive the transition from cooperation to integration. Our work offers a theoretical framework for understanding one of life’s major transitions and opens avenues for future exploration of cellular complexity.
+
+
+
+
+
+Carola Heinzel 
+
+Estimating the Growth Rate of a Birth-Death Process for Small
+Sample Sizes
+
+The problem of estimating the growth rate of a birth and death processes based on the coalescence times of a sample of n individuals has been considered by several authors ([1, 2, 3, 4]). This problem has applications, for example, to cancer research, when one is interested in determining the growth rate of a clone. Recently, Johnson et al. [1] proposed an analytical method for estimating the growth rate using the theory of internal branch lengths of coalescent point processes. Their method has comparable accuracy to more computationally intensive methods when the sample size $n$ is large. We use a similar approach to obtain an estimate of the growth rate that is not based on the assumption that $n$ is large.
+    
+We prove that our proposed estimator has, even asymptotically, a lower variance than the estimator proposed in [1] and that it is asymptotically unbiased. Additionally, we demonstrate, through simulations using the R-package CloneRate, that our estimator for the growth rate has a much smaller mean squared error than previous estimates [1, 2, 4] when $n$ is small.
+
+Joint work with Jason Schweinsberg.
+
+\begin{enumerate}
+\item Brian Johnson et al. cloneRate: fast estimation of single-cell clonal dynamics using coalescent theory. In: Bioinformatics 39.9 (2023), btad561.
+\item Emily Mitchell et al. Clonal dynamics of haematopoiesis across the human lifespan. In: Nature 606.7913 (2022), pp. 343–350.
+\item Tanja Stadler. On incomplete sampling under birth–death models and connections to the sampling-based coalescent. In: Journal of Theoretical Biology 261.1 (2009), pp. 58–66.
+\item Nicholas Williams et al. Life histories of myeloproliferative neoplasms inferred from phylogenies. In: Nature 602.7895 (2022), pp. 162–168.
+\end{enumerate}
+
