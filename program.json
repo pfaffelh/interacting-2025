@@ -1,59 +1,218 @@
-{
-    "speaker" : "",
-    "title" : "",
-    "affiliation" : "",
-    "day" : "",
-    "time" : "",
-    "duration" : 30,
-    "abstract" : ""    
-}
-
-Chaitanya Gokhale
-
-On the origins and evolution of endosymbiosis
-
-The abstract:
-
-Endosymbiosis was a transformative event in the history of life, enabling the emergence of complex eukaryotic cells from simpler microbial ancestors. Despite its significance, we do not understand how free-living microbial partnerships transition into obligate, physically integrated symbioses. I will address that gap by synthesising insights from two recent theoretical studies. The first explores how metabolic syntrophy can lead to stable ectosymbiosis. Using an ecological model, we examine how a mutant host capable of binding symbionts on its surface can invade and persist, despite the metabolic cost of reduced active cell area. Our results identify conditions under which close physical contact is favoured and reveal how enhanced metabolic activity can facilitate the transition toward obligate partnerships. Building on this, the second study uses adaptive dynamics to track evolutionary trajectories of host-symbiont collectives, focusing on two key traits: mutual dependence and reproductive cohesion. We show that while mutual dependence evolves relatively easily, reproductive integration is more constrained by ecological factors such as carrying capacity and asymmetric growth rates. Notably, we find that asymmetries in evolutionary pace, captured by processes such as the Red King effect, can drive one-sided obligacy, reflecting patterns often seen in natural symbioses. Taken together, these studies reveal the ecological and evolutionary mechanisms that can drive the transition from cooperation to integration. Our work offers a theoretical framework for understanding one of life’s major transitions and opens avenues for future exploration of cellular complexity.
-
-
-{
-    "speaker" : "",
-    "title" : "",
-    "affiliation" : "",
-    "day" : "",
-    "time" : "",
-    "duration" : 30,
-    "abstract" : ""    
-}
-
-Chaitanya Gokhale
-
-On the origins and evolution of endosymbiosis
-
-The abstract:
-
-Endosymbiosis was a transformative event in the history of life, enabling the emergence of complex eukaryotic cells from simpler microbial ancestors. Despite its significance, we do not understand how free-living microbial partnerships transition into obligate, physically integrated symbioses. I will address that gap by synthesising insights from two recent theoretical studies. The first explores how metabolic syntrophy can lead to stable ectosymbiosis. Using an ecological model, we examine how a mutant host capable of binding symbionts on its surface can invade and persist, despite the metabolic cost of reduced active cell area. Our results identify conditions under which close physical contact is favoured and reveal how enhanced metabolic activity can facilitate the transition toward obligate partnerships. Building on this, the second study uses adaptive dynamics to track evolutionary trajectories of host-symbiont collectives, focusing on two key traits: mutual dependence and reproductive cohesion. We show that while mutual dependence evolves relatively easily, reproductive integration is more constrained by ecological factors such as carrying capacity and asymmetric growth rates. Notably, we find that asymmetries in evolutionary pace, captured by processes such as the Red King effect, can drive one-sided obligacy, reflecting patterns often seen in natural symbioses. Taken together, these studies reveal the ecological and evolutionary mechanisms that can drive the transition from cooperation to integration. Our work offers a theoretical framework for understanding one of life’s major transitions and opens avenues for future exploration of cellular complexity.
-
-
-
-
-
-Carola Heinzel 
-
-Estimating the Growth Rate of a Birth-Death Process for Small
-Sample Sizes
-
-The problem of estimating the growth rate of a birth and death processes based on the coalescence times of a sample of n individuals has been considered by several authors ([1, 2, 3, 4]). This problem has applications, for example, to cancer research, when one is interested in determining the growth rate of a clone. Recently, Johnson et al. [1] proposed an analytical method for estimating the growth rate using the theory of internal branch lengths of coalescent point processes. Their method has comparable accuracy to more computationally intensive methods when the sample size $n$ is large. We use a similar approach to obtain an estimate of the growth rate that is not based on the assumption that $n$ is large.
-    
-We prove that our proposed estimator has, even asymptotically, a lower variance than the estimator proposed in [1] and that it is asymptotically unbiased. Additionally, we demonstrate, through simulations using the R-package CloneRate, that our estimator for the growth rate has a much smaller mean squared error than previous estimates [1, 2, 4] when $n$ is small.
-
-Joint work with Jason Schweinsberg.
-
-\begin{enumerate}
-\item Brian Johnson et al. cloneRate: fast estimation of single-cell clonal dynamics using coalescent theory. In: Bioinformatics 39.9 (2023), btad561.
-\item Emily Mitchell et al. Clonal dynamics of haematopoiesis across the human lifespan. In: Nature 606.7913 (2022), pp. 343–350.
-\item Tanja Stadler. On incomplete sampling under birth–death models and connections to the sampling-based coalescent. In: Journal of Theoretical Biology 261.1 (2009), pp. 58–66.
-\item Nicholas Williams et al. Life histories of myeloproliferative neoplasms inferred from phylogenies. In: Nature 602.7895 (2022), pp. 162–168.
-\end{enumerate}
-
+[
+    {
+        "lastname": "Gokhale",
+        "firstname": "Chaitanya",
+        "title": "On the origins and evolution of endosymbiosis",
+        "abstract": "Endosymbiosis was a transformative event in the history of life, enabling the emergence of complex eukaryotic cells from simpler microbial ancestors. Despite its significance, we do not understand how free-living microbial partnerships transition into obligate, physically integrated symbioses. I will address that gap by synthesising insights from two recent theoretical studies. The first explores how metabolic syntrophy can lead to stable ectosymbiosis. Using an ecological model, we examine how a mutant host capable of binding symbionts on its surface can invade and persist, despite the metabolic cost of reduced active cell area. Our results identify conditions under which close physical contact is favoured and reveal how enhanced metabolic activity can facilitate the transition toward obligate partnerships. Building on this, the second study uses adaptive dynamics to track evolutionary trajectories of host-symbiont collectives, focusing on two key traits: mutual dependence and reproductive cohesion. We show that while mutual dependence evolves relatively easily, reproductive integration is more constrained by ecological factors such as carrying capacity and asymmetric growth rates. Notably, we find that asymmetries in evolutionary pace, captured by processes such as the Red King effect, can drive one-sided obligacy, reflecting patterns often seen in natural symbioses. Taken together, these studies reveal the ecological and evolutionary mechanisms that can drive the transition from cooperation to integration. Our work offers a theoretical framework for understanding one of life’s major transitions and opens avenues for future exploration of cellular complexity.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Heinzel",
+        "firstname": "Carola",
+        "title": "Estimating the Growth Rate of a Birth-Death Process for Small Sample Sizes",
+        "abstract": "The problem of estimating the growth rate of a birth and death processes based on the coalescence times of a sample of n individuals has been considered by several authors ([1, 2, 3, 4]). This problem has applications, for example, to cancer research, when one is interested in determining the growth rate of a clone. Recently, Johnson et al. [1] proposed an analytical method for estimating the growth rate using the theory of internal branch lengths of coalescent point processes. Their method has comparable accuracy to more computationally intensive methods when the sample size $n$ is large. We use a similar approach to obtain an estimate of the growth rate that is not based on the assumption that $n$ is large. \n\n We prove that our proposed estimator has, even asymptotically, a lower variance than the estimator proposed in [1] and that it is asymptotically unbiased. Additionally, we demonstrate, through simulations using the R-package CloneRate, that our estimator for the growth rate has a much smaller mean squared error than previous estimates [1, 2, 4] when $n$ is small. \n\n Joint work with Jason Schweinsberg. \n\n \\begin{enumerate} \\item Brian Johnson et al. cloneRate: fast estimation of single-cell clonal dynamics using coalescent theory. In: Bioinformatics 39.9 (2023), btad561. \\item Emily Mitchell et al. Clonal dynamics of haematopoiesis across the human lifespan. In: Nature 606.7913 (2022), pp. 343–350. \\item Tanja Stadler. On incomplete sampling under birth–death models and connections to the sampling-based coalescent. In: Journal of Theoretical Biology 261.1 (2009), pp. 58–66. \\item Nicholas Williams et al. Life histories of myeloproliferative neoplasms inferred from phylogenies. In: Nature 602.7895 (2022), pp. 162–168. \\end{enumerate}",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Dai Pra",
+        "firstname": "Marta",
+        "title": "Multi-type logistic branching processes with selection: frequency process and genealogy for large carrying capacities",
+        "abstract": "We present a model for growth in a multi-species population. We consider two types evolving as a logistic branching process with mutation, where one of the types has a selective advantage. We first study the frequency of the disadvantageous type and show that, once the population approaches the carrying capacity, its evolution converges to a Gillespie-Wright-Fisher diffusion process. We then study the dynamics backward in time: we fix a time horizon at which the population is at carrying capacity and we study the ancestral relations of a sample of individuals. We prove that, provided that the advantageous and disadvantageous branching measures are ordered, this ancestral line process converges to the moment dual of the limiting diffusion. This talk is based on joint work with Julian Kern.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Birkner",
+        "firstname": "Matthias",
+        "title": "Linear expansion speed for non-monotone population models",
+        "abstract": "For a spatial stochastic population model, monotonicity is roughly speaking the property that adding individuals to the initial condition stochastically increases the population at any later time. It is a key ingredient in classical proofs of convergence to equilibrium and of linear expansion in time of the population in the survival regime. We develop comparison arguments which allow to adapt these arguments to population models which are non-monotone, for example because of local competition. Our prototypical example is a branching annihilating random walk. \n\n Based on joint work in progress with Alice Callegaro and Ji\\v{r}\\'{i} \\v{C}ern\\'y.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Wittmann",
+        "firstname": "Meike",
+        "title": "Incorporating individual trait variation and niche processes into species interaction models",
+        "abstract": "In this talk, I will present a general nonlinear averaging framework via which we can incorporate individual trait variation as well as the niche processes of niche conformance (phenotypic plasticity) and niche construction into species interaction models. This can of course be done via individual-based simulations or numerical methods, but we also provide Taylor approximations that provide more intuitive insight. I will also outline how the effects of individual variation and niche processes on species interactions can be estimated from empirical data.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Buckland",
+        "firstname": "Matthew",
+        "title": "The on/off Brownian snake",
+        "abstract": "We define what we call an on/off Brownian snake. We use this to construct on/off super Brownian motion recently introduced to the literature by Blath and Jacobi and which is a measure-valued branching process with a dormant state and an active state. Our construction mirrors the construction of super Brownian motion from the Brownian snake by Le Gall. We use the on/off Brownian snake to obtain results concerning the support, range, and expected total mass of on/off super Brownian motion.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Foutel-Rodier",
+        "firstname": "Félix",
+        "title": "Genealogies of interacting branching processes",
+        "abstract": "An interacting branching process is a population model in which individuals reproduce independently, but in a way that depends on the current state of the population. This dependence can model a wide range of ecological interactions but at the cost of breaking the branching property. We show that, if the population is started close to a stable equilibrium of the ecological dynamics and if the reproduction law has finite variance, the genealogy of the population at large carrying capacity is Kingman's coalescent. \n\n Although this result is arguably expected, standard backward-in-time ideas are hard to apply because the population size and structure fluctuate around their equilibrium. Instead, we devise new forward-in-time arguments relying on an extension of a spinal result of Bansaye (2024) to $k$-spines. In turn, this so-called many-to-few formula allows us to tackle the convergence of the genealogy via stochastic calculus.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Blath",
+        "firstname": "Jochen",
+        "title": "Emergence of host dormancy in the presence of a persistent virus epidemic",
+        "abstract": "We study a minimal stochastic individual-based model for a microbial population challenged by a persistent virus epidemic. We focus on the situation in which the resident microbial host population and the virus population are in stable coexistence upon arrival of a single new “mutant” host individual. We assume that this mutant is capable of switching to a reversible state of dormancy upon contact with virions as a means of avoiding infection by the virus. At the same time, we assume that this new dormancy trait comes with a cost, namely a reduced individual reproduction rate in the active state. We prove that there is a non-trivial range of parameters where the mutants can nevertheless invade the resident population with strictly positive probability in the large population limit.  Given the reduced reproductive rate, such an invasion would be impossible in the absence or the virus epidemic. We explicitly characterize the parameter regime where this emergence of a (costly) host dormancy trait is possible, determine the success probability of a single invader and the typical amount of time it takes the successful mutants to reach a macroscopic population size. We conclude this study by an investigation of the fate of the population after the successful emergence of a dormancy trait. Heuristic arguments and simulations suggest that after successful invasion, either both host types and the virus will reach coexistence, or the mutants will drive the resident hosts to extinction while the virus will stay in the system. This is joint work with Andras Tobias (Budapest).",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Wakolbinger",
+        "firstname": "Anton",
+        "title": "Muller's ratchet with tournament selection",
+        "abstract": "Muller's ratchet, in its prototype version, models a haploid population whose size~$N$ is constant over the generations. Slightly deleterious mutations are acquired along the lineages at a constant rate, and individuals carrying less mutations have a selective advantage. The instances at which the minimal mutational load in the population increases are called {\\em clicks of the ratchet}.  In the classical variant (with {\\em fitness proportionate selection}), an individual's selective advantage is proportional to the difference between the population average and the individual's mutation load, whereas in the ratchet with {\\em  tournament selection}  only the ranks of the  individual mutation loads within the population matter. While it is a notoriously stubborn problem to analyse the click rate for fitness proportionate selection, this turns out to be tractable for tournament selection:   In a parameter regime which leads to ``slow clicking'' we obtain the  asymptotic click rates of the tournament ratchet as $N\\to \\infty$, and analyse the large population asymptotics of the empirical type frequency profile at moderately large times. \n\n The talk is based on joint work with Adri\\'an Gonz\\'alez Casanova, Charline Smadi and Jan Lukas Igelbrink.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Leman",
+        "firstname": "Hélène",
+        "title": "Trait evolution in a Moran Model: Impact of environment and population structure",
+        "abstract": "In this talk, I will introduce a population model based on the Moran model, which includes individual competition, mutation, environmental changes, and spatial structure. We will explore various parameter scalings, first examining a scenario with rare mutations and then a scenario with mutations having minimal effects. In each case, we will consider different rates of environmental changes. Then, for a constant environment, we will investigate the influence of the population's spatial structure. Specifically, if the population is organized into demes, we will analyze the dynamics within a deme when the number of demes is infinite. These different limits yield various forms of canonical equations that we can compare. This is a joint work with A. Lambert, H. Morlon, J. Tchouanti and T. Vo.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Boenkost",
+        "firstname": "Florin",
+        "title": "The Impact of Deleterious Mutations on Genealogies",
+        "abstract": "Based on simulations, we explore the genealogical structure of a Wright-Fisher model with selection and mutation, where each mutation decreases the fitness of an individual, thus we are dealing with deleterious mutations. Depending on the strength of selection and the mutation rate, we observe different genealogies ranging from Kingman's coalescent on various time scales to multiple-merger genealogies. This transition between neutral genealogies and multiple merger genealogies is well predicted by the rule of thumb for the onset of Muller's ratchet derived in [Etheridge et al., 2012]. For a haploid population Muller's ratchet refers to the fact that the fittest class in the population can get lost due to deleterious mutations fixating in the population. \n\n In the second part of this talk, we briefly discuss a mathematically tractable model based on branching Brownian motion, which turns out to be capable of reproducing some genealogical patterns of the Wright-Fisher. We prove that the genealogy converges to the Brownian coalescent point process, where the time scale can be given as any power $N^c$ with $c \\in (0,1]$. This talk is based on joined work with Ksenia Khudiakova and Julie Tourniaire.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Bansept",
+        "firstname": "Florence",
+        "title": "How does intermittent feeding shape the gut microbiome?",
+        "abstract": "Feeding impacts the composition of the gut microbiome in animal hosts. While most research efforts have been directed towards studying the impact of the nutritional bolus on the microbiome composition, the effective use of probiotics suggests that, at least in some cases, the immigration of microbes through feeding also has the potential to modify its composition. In community ecology, immigration is considered a key factor to maintain the diversity of a local community; furthermore, a diverse gut microbiome is usually considered an important determinant of health. Thus, questions arise: do hosts adapt their feeding behavior so as to manipulate microbial immigration in a way that facilitates the maintenance of a diverse flora? What fluctuations are to be expected in the community composition from feeding intermittence, and should sampling be controlled for it?  \n\n We develop a mathematical model of microbial communities with birth, death and intermittent migration to study these questions. We show the existence in most cases - when the number of species is large enough - of an optimal feeding strategy, characterized by a relationship between the feeding interval and the food microbial content, that maximizes the average of the microbial diversity over time. We developed a linear approximation of the OFS and showed that its existence is a sufficient condition for the existence of an OFS. In addition, we showed that diversity largely correlates with that of the food, and that the optimal feeding parameters converge to values we are able to explain analytically.  We plan to compare our theoretical results with experimental studies in vitro and in different animal hosts, as we expect these effects to depend on host characteristics, like typical transit time.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Tourniaire",
+        "firstname": "Julie",
+        "title": "Stochastic neutral fractions and the effective population size",
+        "abstract": "Population genetics aims to explain observed genetic diversity through past evolutionary forces. In the neutral setting, i.e., in the absence of natural selection and ecological constraints, diversity arises solely from demographic fluctuations. In this simplified framework, the allelic composition of a population converges, in the large-population limit, to the Wright–Fisher diffusion. \n\n This Wright–Fisher model is a purely genetic model, and a key question is how ecological constraints (such as population structure) may influence genetic composition. In this context, the ‘effective population size’, defined as the size of a Wright–Fisher population experiencing the same level of genetic drift as the population under study, plays a central role. \n\n In this talk, I will introduce a stochastic differential equation with an infinite divisibility property to model the dynamics of general structured populations. This property allows the population to be decomposed into neutral allelic fractions. When demographic fluctuations are small, a fast–slow principle yields a general expression for the effective population size in structured settings. \n\n This is joint work with R. Forien, E. Schertzer, and Z. Talyigas",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Das",
+        "firstname": "Suman",
+        "title": "Fitness landscapes of adaptive polymorphism under resource competition",
+        "abstract": "Fitness landscapes map the genotypes of an organism to its fitness, and are useful in describing how epistasis, i.e. interactions among mutational effects, guides evolution. A fitness landscape has an associated fitness graph, where nodes represent genotypes and directed edges represent directions of fitness increase caused by mutations. Fitness graphs contain vital information about the landscape topography; for example, the ruggedness of a landscape can be quantified by enumerating the sinks of the fitness graph (which correspond to local fitness maxima). A limitation of the traditional fitness landscape approach, however, is that organismal fitness is usually taken to be independent of population composition, making it ill-suited to studying the effect of epistasis in certain evolutionary scenarios, such as when density-dependent selection in a population leads to adaptive polymorphism.  \n\n To address this, we introduce an extension of the fitness graph, which we call the set transition graph. A node of this graph represents a population comprising one or more distinct genotypes existing in an ecologically stable state, whereas directed edges represent evolutionary transitions between such populations driven by de novo mutations. A sink in this graph corresponds to an evolutionary equilibrium (i.e., a state that is robust to mutations arising in the population) and is a generalization of the concept of a local fitness maximum. We apply this framework to a model of competition for two resources and study the system in the tractable limit of highly epistatic genotype-phenotype maps. We find that the set transition graphs for this system are topographically smoother than their traditional counterparts, and polymorphic evolutionary equilibria (composed of multiple genotypically distinct subpopulations) vastly outnumber monomorphic ones. Notably, the topology of the set transition graph depends sensitively on the tails of the phenotype distributions, giving rise to multiple universality classes of landscape ruggedness based on the heaviness of the tail. \n\n In summary, our work combines interactions at the genetic and organismal levels into a single evolutionary landscape that displays a complex relationship between epistasis and landscape topography, distinct from its analogues in classical fitness landscapes. ",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Schertzer",
+        "firstname": "Emmanuel",
+        "title": "Selection of the fittest or selection of the luckiest",
+        "abstract": "Biological evolution depends on the passing down to subsequent generations of genetic information encoding beneficial traits, and on the removal of unfit individuals by a selection mechanism. However, selection acts on phenotypes, and is affected by random contingencies. Thus, a combination of fitness and luck determines which individuals will successfully reproduce and give rise to the next generation. To understand how randomness in the selection mechanism affects the long-term patterns of evolution, we studied an idealized evolution model. We show through simulations and mathematical analysis, that the speed of adaptation increases with increasing selection pressure only up to a threshold. Beyond the threshold, any increase of the selection pressure results in more weight given to random effects rather than on genetic fitness in determining which individuals will successfully reproduce. This severely reduces the speed of adaptation and the diversity in the gene pool. Our findings may be considered as a biological instance of  Goodhart's law: {\\em When a measure becomes a target, it ceases to be a good measure}. Finally, we show that this intricate response of evolution to natural selection can be mathematically explained by a novel phase transition for pulled traveling waves.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Freund",
+        "firstname": "Fabian",
+        "title": "Can gene duplications get out of hand? A simple model to explain the occurrence of high duplication counts in gene families?",
+        "abstract": "Gene families in various species may show tens to hundreds of copies, with no strong indication of these copies all being functional relevant. We introduce a simple Muller's ratchet inspired model for the interplay between selection and gene duplication and analyse its behaviour with and without genetic drift. We then assess the fit and implications of our models for gene families sequenced in zebrafish and humans. Joint work with Johannes Wirtz, Yichen Zheng, Yannick Schäfer, and Thomas Wiehe.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Traulsen",
+        "firstname": "Arne",
+        "title": "Rethinking the connection between Theoretical Ecology and Evolutionary Game Theory",
+        "abstract": "Evolutionary game theory is a popular approach to analyze interactions within or between different types in biology, starting with the explanation of limited war strategies in animal conflict. The most popular model to study well-mixed populations is the replicator dynamics. Josef Hofbauer and Karl Sigmund have shown that the replicator dynamics for n types is equivalent to a Lotka-Volterra system for n-1 types, i.e. one type less. Only if the growth rates in isolation are identical, such a change in the number of types is not necessary. Not taking into account this complication can lead to issues for applications of EGT to empirical systems and one needs to be very careful in translating between ecological models and game theoretical ones. For example, ecologists who describe their studies as cooperation may in fact work on mutualisms or coexistence games. \n\n Tarnita and Traulsen, Reconciling ecology and evolutionary game theory or {\\em When not to think cooperation} PNAS (2025)",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Cordero",
+        "firstname": "Fernando",
+        "title": "Speciation induced by dormancy in a model with changing environment",
+        "abstract": "We consider a population model in which the season alternates between winter and summer. Individuals can acquire mutations that are advantageous in the summer but disadvantageous in the winter, or vice versa.  Furthermore, it is assumed that individuals within the population can either be active or dormant, and that individuals can transition between these two states.  Dormant individuals do not reproduce and are not subject to selective pressures. Our findings indicate that, under some conditions, two waves of adaptation emerge over time. Some individuals repeatedly acquire mutations that are beneficial in the summer, while others repeatedly acquire mutations that are beneficial in the winter. Individuals can survive the season during which they are less fit by entering a dormant state. This result demonstrates that, for populations in fluctuating environments, dormancy has the potential to induce speciation. \n\n This is joint work with Adrián González Casanova and Jason Schweinsberg.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Ortgiese",
+        "firstname": "Marcel",
+        "title": "The spatial Muller's ratchet",
+        "abstract": "In this talk we will consider the spatial Muller's ratchet introduced by Foutel-Rodier and Etheridge (2020). This particle system represents a spatial model of an asexual population with birth and death rates that depend on the local population density. For each particle, we keep track of the number of mutations of its genotype. Moreover, at each birth event with positive probability the offspring receives an additional mutation resulting in a lower birth rate. We show that under appropriate re-scaling, the process converges weakly to an infinite system of PDEs, confirming non-rigorous computations of Foutel-Rodier and Etheridge. Under certain conditions, we can analyse these PDEs and consider the behaviour of travelling waves exploring an empty habitat. Finally, we will also answer the question whether deleterious mutations can surf population waves. Throughout we will discuss some of the technical difficulties that arise when dealing with a non-monotone particle systems with infinitely many types and long-range interactions. \n\n This is joint work with Joao de Oliveira Madeira and Sarah Penington.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Hummel",
+        "firstname": "Sebastian",
+        "title": "Multi-Type Birth-Death Processes with Mean-Field Interactions for B-cell Phylodynamics",
+        "abstract": "Antibody binding affinity maturation is a crucial process of the adaptive immune system. Motivated to model this process, we formulate a system of multi-type birth-death processes that can interact through their empirical distribution. We show that the empirical distribution process of the system of birth-death processes converges to a deterministic probability measure-valued flow as the system size tends to infinity. In this limit, a focal process evolves as a multi-type birth-death process with rates governed by the probability measure-valued flow, which is, in turn, the flow of the one-dimensional marginal distribution of the focal process. Individual processes become independent in the limit, which suggests inference to be feasible for this model. \n\n This is joint work with William S. DeWitt, Steven Evans, and Ella Hiesmayr.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Gonzalez Casanova",
+        "firstname": "Adrian",
+        "title": "Dice Processes",
+        "abstract": "We introduce the dice process, a probabilistic model that describes the evolution of a collection of particles moving over a graph according to random local rules. At each time step, all particles occupying the same site use a common, randomly chosen “dice” to determine their next move. This construction gives rise to a rich class of (partially) exchangeable Markov chains. \n\n The main result of the talk establishes that every partially exchangeable collection of Markov chains on a finite state space can be represented as a dice process. As an application, we obtain a natural characterization of multitype Λ-coalescents without restrictions on the migration mechanism. \n\n We will also briefly discuss a related detour involving the evolutionary rate of plasmid-bearing bacteria. This part of the talk is based on recent experimental work by Paula Ramiro-Martínez, Ignacio de Quinto, Laura Jaraba-Soto, Val F. Lanza, Cristina Herencias-Rodríguez, Rafael Peña-Miller, and Jerónimo Rodríguez-Beltrán. \n\n The main results are drawn from the PhD thesis of Imanol Nuñez (soon to be on the postdoc job market), in collaboration with Noemi Kurt and José Luis Pérez.",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Uecker",
+        "firstname": "Hildegard",
+        "title": "tba",
+        "abstract": "tba",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Viet Tran",
+        "firstname": "Chi",
+        "title": "tba",
+        "abstract": "tba",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Brouard",
+        "firstname": "Vianney",
+        "title": "tba",
+        "abstract": "tba",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Baumdicker",
+        "firstname": "Franz",
+        "title": "tba",
+        "abstract": "tba",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Louvet",
+        "firstname": "Apolline",
+        "title": "tba",
+        "abstract": "tba",
+        "day": "",
+        "time": ""
+    },
+    {
+        "lastname": "Esser",
+        "firstname": "Manuel",
+        "title": "tba",
+        "abstract": "tba",
+        "day": "",
+        "time": ""
+    }
+]
