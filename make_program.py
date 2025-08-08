@@ -1,5 +1,28 @@
 import pandas as pd
+import os
+import jinja2
 from bs4 import BeautifulSoup
+
+latex_jinja_env = jinja2.Environment(
+    block_start_string = '\BLOCK{',
+    block_end_string = '}',
+    variable_start_string = '\VAR{',
+    variable_end_string = '}',
+    comment_start_string = '\#{',
+    comment_end_string = '}',
+    line_statement_prefix = '%%',
+    line_comment_prefix = '%#',
+    trim_blocks = True,
+    autoescape = False,
+    loader = jinja2.FileSystemLoader(os.path.abspath('.'))
+)
+
+data = {}
+
+template = latex_jinja_env.get_template(f"static/template.tex")
+texfile = template.render(data = data)
+
+
 
 def xls_to_html_list(file_path):
     # Excel-Datei einlesen

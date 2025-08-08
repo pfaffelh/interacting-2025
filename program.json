@@ -202,8 +202,8 @@
     {
         "lastname": "Louvet",
         "firstname": "Apolline",
-        "title": "tba",
-        "abstract": "tba",
+        "title": "Stochastic modelling of population dynamics in a spatial continuum and application to epidemiology",
+        "abstract": "Spatial Lambda-Fleming-Viot processes, or SLFVs, are a family of stochastic processes that have been developed to overcome some issues arising when defining stochastic population dynamics models in a spatial continuum of arbitrary dimension. Their main characteristic is their {\\em reproduction event-driven} dynamics that controls local reproduction rates and ensures the existence of a dual process, which is a key tool to the analysis of SLFV processes. In this talk, after giving an overview of this modelling framework, I will present a recent extension to the modelling of epidemics, giving rise to a stochastic SIS-type model in continuous space. I will show to what extent the central concept of basic reproduction number can be extended to this model, using the duality relation along with the characterization of the process as the unique solution to a martingale problem. \n \n Based on a joint work with Bastian Wiederhold (LMU).",
         "day": "",
         "time": ""
     },
