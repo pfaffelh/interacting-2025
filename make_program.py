@@ -106,8 +106,7 @@ for d in days:
         x = [t for t in talks if t["day"] == d["name"] and t["time"] == s]
         if x != []:
             d["programlines"].append(f"{x[0]["time"]} &\\textbf{{{x[0]["firstname"]} {x[0]["lastname"]} }} {x[0]["title"]}")
-            print(x)
-            d["abstractlines"].append(f"\\noindent {{\\Large {x[0]["title"]} }}\\\\[1ex]{{ \\large \\textbf{{ {x[0]["firstname"]} {x[0]["lastname"]}}}}}, {x[0]["affiliation"]} ({x[0]["time"]}) \\\\[2ex] {x[0]["abstract"]}")
+            d["abstractlines"].append(f"\\noindent {{\\Large {x[0]["time"]}: {x[0]["title"]} }}\\\\[1ex]{{ \\large \\textbf{{ {x[0]["firstname"]} {x[0]["lastname"]}}}}}, {x[0]["affiliation"]} \\\\[2ex] {x[0]["abstract"]}")
 
 data["program"] = days
 
