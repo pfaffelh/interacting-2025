@@ -30,6 +30,10 @@
 \voffset-2.5cm
 \setlength{\textheight}{24.5cm}
 
+\usepackage{array}
+\usepackage{longtable}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedright\arraybackslash}p{#1}}
 
 \newcommand{\Impressum}{%
 {\scriptsize
@@ -160,6 +164,29 @@ University of Freiburg
 
 \newpage
  
+\subsection*{Participants}
+
+\begin{longtable}{L{0.3\textwidth}R{0.7\textwidth}}
+\hline
+\textbf{Name} & \textbf{Affiliation} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Name} & \textbf{Affiliation} \\
+\hline
+\endhead
+
+% Beispielzeilen
+%% for d in data["participants"]
+\VAR{d["Vorname"]} \VAR{d["Name"]} & \VAR{d["Affiliation"]} \\
+%% endfor
+\end{longtable}
+
+
+\newpage
+
+
 \textbf{Supported by: }\\
  
 \includegraphics[height=3cm]{UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png}
@@ -172,6 +199,13 @@ University of Freiburg
 ~\hfill ~
 \includegraphics[height=3cm]{logo-tsh.jpg}
 ~\hfill ~
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\includegraphics[height=1.5cm]{dfg.jpg}
 
  ~
  %\enlargethispage{2cm}

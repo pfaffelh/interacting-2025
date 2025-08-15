@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.3.5)  12 AUG 2025 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.3.5)  15 AUG 2025 15:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -292,75 +292,93 @@ Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 \everycr=\toks33
 \minrowclearance=\skip67
 \rownum=\count292
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
+\LTleft=\skip68
+\LTright=\skip69
+\LTpre=\skip70
+\LTpost=\skip71
+\LTchunksize=\count293
+\LTcapwidth=\dimen159
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@gbox=\box60
+\LT@cols=\count294
+\LT@rows=\count295
+\c@LT@tables=\count296
+\c@LT@chunks=\count297
+\LT@p@ftn=\toks34
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count293
-\l__pdf_internal_box=\box56
+\l__color_backend_stack_int=\count298
+\l__pdf_internal_box=\box61
 ) (./template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen159
-\scratchbox=\box57
-\nofMPsegments=\count295
-\nofMParguments=\count296
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen160
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count299
+\scratchdimen=\dimen160
+\scratchbox=\box62
+\nofMPsegments=\count300
+\nofMParguments=\count301
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen161
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
+\everyMPtoPDFconversion=\toks36
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 74.
+Package hyperref Info: Link coloring OFF on input line 78.
 \@outlinefile=\write3
 \openout3 = `template.out'.
 
 <Siegel-Uni-Luebeck.svg.png, id=4, 977.6525pt x 1132.23pt>
 File: Siegel-Uni-Luebeck.svg.png Graphic file (type png)
 <use Siegel-Uni-Luebeck.svg.png>
-Package pdftex.def Info: Siegel-Uni-Luebeck.svg.png  used on input line 105.
+Package pdftex.def Info: Siegel-Uni-Luebeck.svg.png  used on input line 109.
 (pdftex.def)             Requested size: 122.83281pt x 142.26378pt.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 107.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 111.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 107.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 111.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 107.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 111.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png, id=6, 407.5225pt x 403.5075pt>
 File: UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png Graphic file (type png)
 <use UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png>
-Package pdftex.def Info: UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png  used on input line 116.
+Package pdftex.def Info: UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png  used on input line 120.
 (pdftex.def)             Requested size: 143.67967pt x 142.26378pt.
 
 
@@ -370,13 +388,13 @@ Package pdftex.def Info: UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png 
 <logo-tsh.jpg, id=16, 26.499pt x 16.3812pt>
 File: logo-tsh.jpg Graphic file (type jpg)
 <use logo-tsh.jpg>
-Package pdftex.def Info: logo-tsh.jpg  used on input line 125.
+Package pdftex.def Info: logo-tsh.jpg  used on input line 129.
 (pdftex.def)             Requested size: 77.99881pt x 48.22955pt.
 
-/home/pfaffelh/Code/other/interacting-2025/template.tex:129: Undefined control sequence.
+/home/pfaffelh/Code/other/interacting-2025/template.tex:133: Undefined control sequence.
 <argument> \Large \VAR 
                        {d["longname"]}
-l.129 \textbf{\Large \VAR{d["longname"]}}
+l.133 \textbf{\Large \VAR{d["longname"]}}
                                          \medskip
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -384,8 +402,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/pfaffelh/Code/other/interacting-2025/template.tex:133: Undefined control sequence.
-l.133 \VAR
+/home/pfaffelh/Code/other/interacting-2025/template.tex:137: Undefined control sequence.
+l.137 \VAR
           {l} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -396,10 +414,10 @@ and I'll forget about whatever was undefined.
 
 
 [2 <./logo-tsh.jpg>]
-/home/pfaffelh/Code/other/interacting-2025/template.tex:144: Undefined control sequence.
+/home/pfaffelh/Code/other/interacting-2025/template.tex:148: Undefined control sequence.
 <argument> ...chorHref {section*.2}\sffamily \VAR 
                                                   {d["longname"]}
-l.144 \subsection*{\sffamily \VAR{d["longname"]}}
+l.148 \subsection*{\sffamily \VAR{d["longname"]}}
                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -407,8 +425,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/pfaffelh/Code/other/interacting-2025/template.tex:147: Undefined control sequence.
-l.147 \VAR
+/home/pfaffelh/Code/other/interacting-2025/template.tex:151: Undefined control sequence.
+l.151 \VAR
           {l}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -419,40 +437,89 @@ and I'll forget about whatever was undefined.
 
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Overfull \hbox (24.0pt too wide) in alignment at lines 169--173
+ [] [] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 173--178
+ [] [] 
+ []
+
+/home/pfaffelh/Code/other/interacting-2025/template.tex:182: Undefined control sequence.
+l.182 \VAR
+          {d["Vorname"]} \VAR{d["Name"]} & \VAR{d["Affiliation"]} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/pfaffelh/Code/other/interacting-2025/template.tex:182: Undefined control sequence.
+l.182 \VAR{d["Vorname"]} \VAR
+                             {d["Name"]} & \VAR{d["Affiliation"]} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/pfaffelh/Code/other/interacting-2025/template.tex:182: Undefined control sequence.
+l.182 \VAR{d["Vorname"]} \VAR{d["Name"]} & \VAR
+                                               {d["Affiliation"]} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 178--184
+ [] [] 
+ []
+
+
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
 File: UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png Graphic file (type png)
 <use UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png>
-Package pdftex.def Info: UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png  used on input line 165.
+Package pdftex.def Info: UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png  used on input line 192.
 (pdftex.def)             Requested size: 86.20407pt x 85.35826pt.
 File: Siegel-Uni-Luebeck.svg.png Graphic file (type png)
 <use Siegel-Uni-Luebeck.svg.png>
-Package pdftex.def Info: Siegel-Uni-Luebeck.svg.png  used on input line 167.
+Package pdftex.def Info: Siegel-Uni-Luebeck.svg.png  used on input line 194.
 (pdftex.def)             Requested size: 73.69371pt x 85.35826pt.
-<fdmai.png, id=28, 391.4625pt x 111.41624pt>
+<fdmai.png, id=35, 391.4625pt x 111.41624pt>
 File: fdmai.png Graphic file (type png)
 <use fdmai.png>
-Package pdftex.def Info: fdmai.png  used on input line 171.
+Package pdftex.def Info: fdmai.png  used on input line 198.
 (pdftex.def)             Requested size: 149.95193pt x 42.67912pt.
 File: logo-tsh.jpg Graphic file (type jpg)
 <use logo-tsh.jpg>
-Package pdftex.def Info: logo-tsh.jpg  used on input line 173.
+Package pdftex.def Info: logo-tsh.jpg  used on input line 200.
 (pdftex.def)             Requested size: 138.13109pt x 85.35826pt.
+<dfg.jpg, id=36, 254.6313pt x 32.5215pt>
+File: dfg.jpg Graphic file (type jpg)
+<use dfg.jpg>
+Package pdftex.def Info: dfg.jpg  used on input line 208.
+(pdftex.def)             Requested size: 334.17944pt x 42.67912pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
 \OT1/cmss/m/n/8 Theodor-Schwartz-Haus,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
 \OT1/cmss/m/n/8 23570 L^^?ubeck-Travem^^?unde OT-
  []
 
 
 
-[4 <./fdmai.png (PNG copy)>] (./template.aux)
+[5 <./fdmai.png (PNG copy)> <./dfg.jpg>] (./template.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -468,18 +535,18 @@ Package rerunfilecheck Info: Checksums for `template.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10794 strings out of 473584
- 163935 string characters out of 5730880
+ 10907 strings out of 473584
+ 165554 string characters out of 5730880
  1930905 words of memory out of 5000000
- 33531 multiletter control sequences out of 15000+600000
+ 33639 multiletter control sequences out of 15000+600000
  567278 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,7n,80p,588b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on template.pdf (4 pages, 476487 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on template.pdf (5 pages, 592594 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

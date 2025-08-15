@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1755003791.4677 "/home/pfaffelh/Code/other/interacting-2025/template.tex" "template.pdf" "template" 1755003792.59258 2
+["pdflatex"] 1755265440.20975 "/home/pfaffelh/Code/other/interacting-2025/template.tex" "template.pdf" "template" 1755265441.33843 2
   "/etc/texmf/web2c/texmf.cnf" 1741176358.13316 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/pfaffelh/Code/other/interacting-2025/template.tex" 1755003789.82968 4054 b7101f9cd4f09c3c7999fb0ef2249564 ""
+  "/home/pfaffelh/Code/other/interacting-2025/template.tex" 1755265438.64638 4655 104f93aadb5bb8483d1cfe783564fd04 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -29,6 +29,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm" 1136768653 520 82a3d37183f34b6eb363a161dfc002c2 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm" 1136768653 520 7bb3abb160b19e0ed6ac404bb59052b7 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb" 1248133631 24393 3b7eb51a67a0a62aec5849271bdb9c2e ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb" 1248133631 24420 52dbb8e8aa0069a1b987309557f8d303 ""
@@ -93,6 +94,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty" 1718401325 14067 1383bd6ee23ab18ae0e796155404deb7 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty" 1717359999 15033 652f156c2f139501300900190cae68c4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty" 1137111039 4029 0462ee5ab265cf59dc15a41a3b883101 ""
   "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1700082560 55487 80a65caedd3722f4c20a14a69e785d8f ""
@@ -102,11 +104,12 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1741176522 8243634 6a2e696ef381cb3c78b08313e6ddd68f ""
   "Siegel-Uni-Luebeck.svg.png" 1755000326.2332 246640 e84a1606fc6074d6e820dcff776bc6e4 ""
   "UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png" 1755000326.2382 154642 c12cee67b4a571bef9412de16c5a114b ""
+  "dfg.jpg" 1269961578 104919 2fb168eb43fd207d22412e2713579a31 ""
   "fdmai.png" 1755000326.2382 130076 12f8b5c8d5fc244881969632bc474ea6 ""
   "logo-tsh.jpg" 1755000326.23921 9320 c72bf00a6b25d9c23c30c26c982ddfa9 ""
-  "template.aux" 1755003792.48664 162 59504cb8f8bee0a3f0488d753cb23a1e "pdflatex"
-  "template.out" 1755003791.91965 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "template.tex" 1755003789.82968 4054 b7101f9cd4f09c3c7999fb0ef2249564 ""
+  "template.aux" 1755265441.22143 239 8e668ecb6da3aef661912a34e3a36ab8 "pdflatex"
+  "template.out" 1755265440.66442 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "template.tex" 1755265438.64638 4655 104f93aadb5bb8483d1cfe783564fd04 ""
   (generated)
   "template.aux"
   "template.log"

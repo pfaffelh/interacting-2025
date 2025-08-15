@@ -23,12 +23,12 @@ days = [
         {
             "name" : "Tuesday", 
              "longname": "Tuesday, September 9", 
-             "slots": ["14:00--14:30", "14:30--15:00", "15:00--15:30", "15:30--16:00", "16:00--16:30", "16:30--17:00", "17:00--17:30", "18:00"]
+             "slots": ["13:55--14:00", "14:00--14:30", "14:30--15:00", "15:00--15:30", "15:30--16:00", "16:00--16:30", "16:30--17:00", "17:00--17:30", "18:00"]
         },
         {   
             "name" : "Wednesday", 
             "longname": "Wednesday, September 10", 
-            "slots": ["9:00--9:30", "9:30--10:00", "10:00--10:30", "10:30--11:00", "11:00--11:30", "11:30--12:00", "12:00", "18:00", "19:30--21:00"]
+            "slots": ["9:00--9:30", "9:30--10:00", "10:00--10:30", "10:30--11:00", "11:00--11:30", "11:30--12:00", "12:00", "afternoon", "18:00", "19:30--21:00"]
         },
         {
             "name" : "Thursday", 
@@ -51,18 +51,20 @@ def checkavailable(day, time):
     return res 
 
 extra = [
+    {"day": "Tuesday", "time": "13:55--14:00", "title": "Welcome"},
     {"day": "Tuesday", "time": "15:30--16:00", "title": "Coffee"},
     {"day": "Tuesday", "time": "18:00", "title": "Dinner"},
     {"day": "Wednesday", "time": "10:30--11:00", "title": "Coffee"},
-    {"day": "Wednesday", "time": "12:00", "title": "Lunch"},
+    {"day": "Wednesday", "time": "12:00", "title": "Lunch or lunch package"},
+    {"day": "Wednesday", "time": "afternoon", "title": "Hike, research, excursion, etc."},
     {"day": "Wednesday", "time": "18:00", "title": "Dinner"},
-    {"day": "Wednesday", "time": "19:30--21:00", "title": "Poster session"},
+    {"day": "Wednesday", "time": "19:30--21:00", "title": "Poster session with short presentations"},
     {"day": "Thursday", "time": "10:30--11:00", "title": "Coffee"},
     {"day": "Thursday", "time": "12:00", "title": "Lunch"},
     {"day": "Thursday", "time": "15:30--16:00", "title": "Coffee"},
     {"day": "Thursday", "time": "18:00", "title": "Dinner"},
     {"day": "Friday", "time": "10:30--11:00", "title": "Coffee"},
-    {"day": "Friday", "time": "12:00", "title": "Lunch"}
+    {"day": "Friday", "time": "12:00", "title": "Lunch or lunch package"}
 ]
 
 for e in extra:
@@ -85,9 +87,11 @@ data["abstracts"] = []
 xls_path = "sprecher.xlsx"  # Datei-Pfad anpassen
 df = pd.read_excel(xls_path, dtype=str).fillna("")
 df = df.sort_values(by=["Name", "Vorname"], ascending=[True, True])
-speakers = df.to_dict(orient="records")
+participants = df.to_dict(orient="records")
+data["participants"] = participants
+
 for t in talks:
-    s = [s for s in speakers if s["Name"] == t["lastname"] and s["Vorname"] == t["firstname"]]
+    s = [s for s in participants if s["Name"] == t["lastname"] and s["Vorname"] == t["firstname"]]
     if s !=[]:
         t["affiliation"] = s[0]["Affiliation"]
         t["url"] = s[0]["URL"]

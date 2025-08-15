@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.3.5)  12 AUG 2025 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.3.5)  15 AUG 2025 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -347,46 +347,65 @@ Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 \minrowclearance=\skip67
 \rownum=\count292
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
+\LTleft=\skip68
+\LTright=\skip69
+\LTpre=\skip70
+\LTpost=\skip71
+\LTchunksize=\count293
+\LTcapwidth=\dimen159
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@gbox=\box60
+\LT@cols=\count294
+\LT@rows=\count295
+\c@LT@tables=\count296
+\c@LT@chunks=\count297
+\LT@p@ftn=\toks34
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count293
-\l__pdf_internal_box=\box56
+\l__color_backend_stack_int=\count298
+\l__pdf_internal_box=\box61
 )
 (./program.aux)
 \openout1 = `program.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen159
-\scratchbox=\box57
-\nofMPsegments=\count295
-\nofMParguments=\count296
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen160
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count299
+\scratchdimen=\dimen160
+\scratchbox=\box62
+\nofMPsegments=\count300
+\nofMParguments=\count301
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen161
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
+\everyMPtoPDFconversion=\toks36
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -396,7 +415,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 74.
+Package hyperref Info: Link coloring OFF on input line 78.
 
 (./program.out) (./program.out)
 \@outlinefile=\write3
@@ -405,21 +424,21 @@ Package hyperref Info: Link coloring OFF on input line 74.
 <Siegel-Uni-Luebeck.svg.png, id=4, 977.6525pt x 1132.23pt>
 File: Siegel-Uni-Luebeck.svg.png Graphic file (type png)
 <use Siegel-Uni-Luebeck.svg.png>
-Package pdftex.def Info: Siegel-Uni-Luebeck.svg.png  used on input line 105.
+Package pdftex.def Info: Siegel-Uni-Luebeck.svg.png  used on input line 109.
 (pdftex.def)             Requested size: 122.83281pt x 142.26378pt.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
-7.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 11
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 107
+LaTeX Font Info:    Trying to load font information for U+msa on input line 111
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 107
+LaTeX Font Info:    Trying to load font information for U+msb on input line 111
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -431,7 +450,7 @@ File: UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png Graphic file (type
  png)
 <use UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png>
 Package pdftex.def Info: UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png
-  used on input line 116.
+  used on input line 120.
 (pdftex.def)             Requested size: 143.67967pt x 142.26378pt.
 
 
@@ -442,7 +461,7 @@ ng> <./UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png>]
 <logo-tsh.jpg, id=16, 26.499pt x 16.3812pt>
 File: logo-tsh.jpg Graphic file (type jpg)
 <use logo-tsh.jpg>
-Package pdftex.def Info: logo-tsh.jpg  used on input line 125.
+Package pdftex.def Info: logo-tsh.jpg  used on input line 129.
 (pdftex.def)             Requested size: 77.99881pt x 48.22955pt.
 
 
@@ -454,7 +473,7 @@ Package pdftex.def Info: logo-tsh.jpg  used on input line 125.
 
 [5]
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <12> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 200.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 214.
 
 
 
@@ -463,13 +482,14 @@ LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <12> not available
 [7]
 
 [8]
-
-[9]
-Overfull \hbox (7.16875pt too wide) in paragraph at lines 256--257
-\OT1/cmss/m/n/17.28 11:00--11:30: Multi-Type Birth-Death Pro-cesses with Mean-
+Overfull \hbox (10.18262pt too wide) in paragraph at lines 244--245
+\OT1/cmss/m/n/17.28 9:30--10:00: In-cor-po-rat-ing in-di-vid-ual trait vari-a-t
+ion and niche
  []
 
 
+
+[9]
 
 [10]
 
@@ -478,6 +498,12 @@ Overfull \hbox (7.16875pt too wide) in paragraph at lines 256--257
 [12]
 
 [13]
+Overfull \hbox (4.27295pt too wide) in paragraph at lines 306--307
+\OT1/cmss/m/n/17.28 15:00--15:30: Ex-tended power-law mu-ta-tion regime in adap
+-
+ []
+
+
 
 [14]
 
@@ -486,9 +512,39 @@ Overfull \hbox (7.16875pt too wide) in paragraph at lines 256--257
 [16]
 
 [17]
+Overfull \hbox (7.16875pt too wide) in paragraph at lines 363--364
+\OT1/cmss/m/n/17.28 11:00--11:30: Multi-Type Birth-Death Pro-cesses with Mean-
+ []
+
+
+Overfull \hbox (6.57848pt too wide) in paragraph at lines 369--370
+\OT1/cmss/m/n/17.28 11:30--12:00: Ge-nealo-gies of in-ter-act-ing branch-ing pr
+o-cesses 
+ []
+
+
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+
+[19]
+Overfull \hbox (24.0pt too wide) in alignment at lines 384--388
+ [] [] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 388--393
+ [] [] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 393--438
+ [] [] 
+ []
+
+[20]
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 
  []
 
@@ -496,34 +552,39 @@ File: UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png Graphic file (type
  png)
 <use UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png>
 Package pdftex.def Info: UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png
-  used on input line 369.
+  used on input line 446.
 (pdftex.def)             Requested size: 86.20407pt x 85.35826pt.
 File: Siegel-Uni-Luebeck.svg.png Graphic file (type png)
 <use Siegel-Uni-Luebeck.svg.png>
-Package pdftex.def Info: Siegel-Uni-Luebeck.svg.png  used on input line 371.
+Package pdftex.def Info: Siegel-Uni-Luebeck.svg.png  used on input line 448.
 (pdftex.def)             Requested size: 73.69371pt x 85.35826pt.
-<fdmai.png, id=102, 391.4625pt x 111.41624pt>
+<fdmai.png, id=122, 391.4625pt x 111.41624pt>
 File: fdmai.png Graphic file (type png)
 <use fdmai.png>
-Package pdftex.def Info: fdmai.png  used on input line 375.
+Package pdftex.def Info: fdmai.png  used on input line 452.
 (pdftex.def)             Requested size: 149.95193pt x 42.67912pt.
 File: logo-tsh.jpg Graphic file (type jpg)
 <use logo-tsh.jpg>
-Package pdftex.def Info: logo-tsh.jpg  used on input line 377.
+Package pdftex.def Info: logo-tsh.jpg  used on input line 454.
 (pdftex.def)             Requested size: 138.13109pt x 85.35826pt.
+<dfg.jpg, id=123, 254.6313pt x 32.5215pt>
+File: dfg.jpg Graphic file (type jpg)
+<use dfg.jpg>
+Package pdftex.def Info: dfg.jpg  used on input line 462.
+(pdftex.def)             Requested size: 334.17944pt x 42.67912pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 468--468
 \OT1/cmss/m/n/8 Theodor-Schwartz-Haus,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 468--468
 \OT1/cmss/m/n/8 23570 L^^?ubeck-Travem^^?unde OT-
  []
 
 
 
-[19 <./fdmai.png (PNG copy)>] (./program.aux)
+[22 <./fdmai.png (PNG copy)> <./dfg.jpg>] (./program.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -532,26 +593,30 @@ Package rerunfilecheck Info: File `program.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10834 strings out of 473584
- 164218 string characters out of 5730880
- 1935905 words of memory out of 5000000
- 33545 multiletter control sequences out of 15000+600000
+ 10951 strings out of 473584
+ 165868 string characters out of 5730880
+ 1946905 words of memory out of 5000000
+ 33655 multiletter control sequences out of 15000+600000
  568250 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,80p,1890b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb>
-Output written on program.pdf (19 pages, 568205 bytes).
+ 75i,10n,80p,1890b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on program.pdf (22 pages, 720375 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 197 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
