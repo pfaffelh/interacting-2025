@@ -12,7 +12,7 @@
 			}
 \usepackage[utf8]{inputenc}
 \usepackage[hidelinks]{hyperref}
-\usepackage{amsfonts, amssymb, amsthm}
+\usepackage{amsfonts, amssymb, amsthm, setspace}
 %\usepackage{natbib,verbatim}
 %\usepackage{pictexwd}
 \usepackage[usenames,dvipsnames,table]{xcolor} % für colorbox
@@ -138,13 +138,18 @@ University of Freiburg
 %% endfor
 \end{tabular}
 
+%% if d["name"] != "Monday"
 \newpage
+%% else
+\vspace{.5cm}
+%% endif
 
 %% endfor
 
 
 \section*{\sffamily Abstracts}
 %% for d in data["program"]
+%% if d["abstractlines"] != []
 \subsection*{\sffamily \VAR{d["longname"]}}
 \bigskip\bigskip
 %% for l in d["abstractlines"]
@@ -155,6 +160,7 @@ University of Freiburg
 %% endfor
 
 \newpage
+%% endif
 
 %% endfor
 

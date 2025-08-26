@@ -17,13 +17,18 @@ latex_jinja_env = jinja2.Environment(
     loader                 = jinja2.FileSystemLoader(os.path.abspath('.'))
 )
 
-data = {}
+title_poster_session = "Poster session with short presentations"
 
 days = [
         {
+            "name" : "Monday", 
+             "longname": "Monday, September 8", 
+             "slots": ["all day \\phantom{xxxxx}"]
+        },
+        {
             "name" : "Tuesday", 
              "longname": "Tuesday, September 9", 
-             "slots": ["13:55--14:00", "14:00--14:30", "14:30--15:00", "15:00--15:30", "15:30--16:00", "16:00--16:30", "16:30--17:00", "17:00--17:30", "18:00"]
+             "slots": ["8:00--13:55", "13:55--14:00", "14:00--14:30", "14:30--15:00", "15:00--15:30", "15:30--16:00", "16:00--16:30", "16:30--17:00", "17:00--17:30", "18:00"]
         },
         {   
             "name" : "Wednesday", 
@@ -51,6 +56,8 @@ def checkavailable(day, time):
     return res 
 
 extra = [
+    {"day": "Monday", "time": "all day \\phantom{xxxxx}", "title": "Arrival, time for research"},
+    {"day": "Tuesday", "time": "8:00--13:55", "title": "Time for research"},
     {"day": "Tuesday", "time": "13:55--14:00", "title": "Welcome"},
     {"day": "Tuesday", "time": "15:30--16:00", "title": "Coffee"},
     {"day": "Tuesday", "time": "18:00", "title": "Dinner"},
@@ -58,7 +65,7 @@ extra = [
     {"day": "Wednesday", "time": "12:00", "title": "Lunch or lunch package"},
     {"day": "Wednesday", "time": "afternoon", "title": "Hike, research, excursion, etc."},
     {"day": "Wednesday", "time": "18:00", "title": "Dinner"},
-    {"day": "Wednesday", "time": "19:30--21:00", "title": "Poster session with short presentations"},
+    {"day": "Wednesday", "time": "19:30--21:00", "title": title_poster_session},
     {"day": "Thursday", "time": "10:30--11:00", "title": "Coffee"},
     {"day": "Thursday", "time": "12:00", "title": "Lunch"},
     {"day": "Thursday", "time": "15:30--16:00", "title": "Coffee"},
@@ -72,8 +79,10 @@ for e in extra:
         print(f"Warnung (extra): Der Slot {e["day"]}, {e["time"]} ist nicht verfügbar.")
 
 with open("program.json", "r", encoding="utf-8") as f:
-    talks = json.load(f)
-    
+    data = json.load(f)
+    talks = data["talks"]
+    posters = sorted(data["posters"], key=lambda x: x["lastname"])
+
 for t in talks: 
     if not checkavailable(t["day"], t["time"]):
         print(f"Warnung (talks): Der Slot {e["day"]}, {e["time"]} ist nicht verfügbar.")
@@ -83,6 +92,7 @@ for d in days:
         if not any(t.get("day") == d["name"] and t.get("time") == slot for t in talks + extra):
             print(f"Warnung: Der Slot {d["name"]}, {slot} ist nicht belegt.")
 
+data = {}
 data["abstracts"] = []
 xls_path = "sprecher.xlsx"  # Datei-Pfad anpassen
 df = pd.read_excel(xls_path, dtype=str).fillna("")
@@ -90,7 +100,7 @@ df = df.sort_values(by=["Name", "Vorname"], ascending=[True, True])
 participants = df.to_dict(orient="records")
 data["participants"] = participants
 
-for t in talks:
+for t in talks + posters:
     s = [s for s in participants if s["Name"] == t["lastname"] and s["Vorname"] == t["firstname"]]
     if s !=[]:
         t["affiliation"] = s[0]["Affiliation"]
@@ -100,17 +110,22 @@ for t in talks:
         print(f"Warnung: {t["firstname"]} {t["lastname"]} nicht in der xls-Tabelle gefunden.")
 
 for d in days:
-    data["abstracts"].append({"day": d["name"], "talks" : []})
+    if d["name"] != "Monday, September 8":
+        data["abstracts"].append({"day": d["name"], "talks" : []})
     d["programlines"] = []
     d["abstractlines"] = []
     for s in d["slots"]:
         x = [e for e in extra if e["day"] == d["name"] and e["time"] == s]
         if x != []:
             d["programlines"].append(f"{x[0]["time"]} & {x[0]["title"]}")
+            if x[0]["title"] == title_poster_session:
+                d["abstractlines"].append(f"\\noindent {{\\Large Posters}}")
+                for p in posters:
+                    d["abstractlines"].append(f"\\noindent {{\\subsection*{{{p["title"]}}}}}{{ \\textbf{{{p["firstname"]} {p["lastname"]}}}}}, {p["affiliation"]} \\\\[2ex] {p["abstract"]}")
         x = [t for t in talks if t["day"] == d["name"] and t["time"] == s]
         if x != []:
             d["programlines"].append(f"{x[0]["time"]} &\\textbf{{{x[0]["firstname"]} {x[0]["lastname"]} }} {x[0]["title"]}")
-            d["abstractlines"].append(f"\\noindent {{\\Large {x[0]["time"]}: {x[0]["title"]} }}\\\\[1ex]{{ \\large \\textbf{{ {x[0]["firstname"]} {x[0]["lastname"]}}}}}, {x[0]["affiliation"]} \\\\[2ex] {x[0]["abstract"]}")
+            d["abstractlines"].append(f"\\noindent {{\\subsection*{{{x[0]["time"]}: {x[0]["title"]} }}}}{{  \\textbf{{{x[0]["firstname"]} {x[0]["lastname"]}}}}}, {x[0]["affiliation"]} \\\\[2ex] {x[0]["abstract"]}")
 
 data["program"] = days
 
@@ -119,7 +134,4 @@ texfile = template.render(data = data)
 
 with open("program.tex", "w", encoding="utf-8") as f:
     f.write(texfile)
-
-
-
 
