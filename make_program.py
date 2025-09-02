@@ -43,7 +43,7 @@ days = [
         {
             "name" : "Friday", 
             "longname": "Friday, September 12", 
-            "slots": ["9:00--9:30", "9:30--10:00", "10:00--10:30", "10:30--11:00", "11:00--11:30", "11:30--12:00", "12:00"]
+            "slots": ["9:00--9:30", "9:30--10:00", "10:00--10:30", "10:30--11:00", "11:00--11:30", "11:30--12:00", "12:00", "afternoon"]
         }
 ]
 
@@ -63,7 +63,7 @@ extra = [
     {"day": "Tuesday", "time": "18:00", "title": "Dinner"},
     {"day": "Wednesday", "time": "10:30--11:00", "title": "Coffee"},
     {"day": "Wednesday", "time": "12:00", "title": "Lunch or lunch package"},
-    {"day": "Wednesday", "time": "afternoon", "title": "Hike, research, excursion, etc."},
+    {"day": "Wednesday", "time": "afternoon", "title": "Time for research (or something else)"},
     {"day": "Wednesday", "time": "18:00", "title": "Dinner"},
     {"day": "Wednesday", "time": "19:30--21:00", "title": title_poster_session},
     {"day": "Thursday", "time": "10:30--11:00", "title": "Coffee"},
@@ -71,7 +71,8 @@ extra = [
     {"day": "Thursday", "time": "15:30--16:00", "title": "Coffee"},
     {"day": "Thursday", "time": "18:00", "title": "Dinner"},
     {"day": "Friday", "time": "10:30--11:00", "title": "Coffee"},
-    {"day": "Friday", "time": "12:00", "title": "Lunch or lunch package"}
+    {"day": "Friday", "time": "12:00", "title": "Lunch or lunch package"},
+    {"day": "Friday", "time": "afternoon", "title": "Departure, time for research"}
 ]
 
 for e in extra:
