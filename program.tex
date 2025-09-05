@@ -39,22 +39,22 @@
 {\scriptsize
 \fboxsep0pt
 %\fbox%
-{\begin{minipage}[b]{.33\textwidth}
+{\begin{minipage}[b]{.4\textwidth}
 September 9--September 12, 2025\\[.5ex]
 \textbf{Location: }\\
 Theodor-Schwartz-Haus, Travemünde\\
 Wedenberg \\
-23570 Lübeck-Travemünde OT-Brodten
+23570 Lübeck-Travemünde \\ OT-Brodten
 Germany
 \end{minipage}}
 \hfill
-{\begin{minipage}[b]{.36\textwidth}
+{\begin{minipage}[b]{.29\textwidth}
 \textbf{Organisation: }\\
 Prof. Dr. Cornelia Pokalyuk \\
 cornelia.pokalyuk@uni-luebeck.de  
 \end{minipage}}%
 \hfill
-{\begin{minipage}[b]{.28\textwidth}
+{\begin{minipage}[b]{.29\textwidth}
 \textbf{Organisation: }\\
 Prof. Dr. Peter Pfaffelhuber\\
 p.p@stochastik.uni-freiburg.de
@@ -279,19 +279,21 @@ afternoon & Departure, time for research \\
 
 \bigskip\bigskip
 
-\noindent {\subsection*{tba}}{ \textbf{Kewani Welay Brhane}}, BTU Cottbus \\[2ex] tba 
+\noindent {\subsection*{Probabilities of Cholera Disease Outbreak}}{ \textbf{Kewani Welay Brhane}}, BTU Cottbus \\[2ex] Infectious disease epidemics continue to pose significant global risks to human, animal, and plant populations. A central challenge in epidemic modeling is to assess whether newly introduced pathogens will establish in a population or fade out without leading to major outbreaks. Deterministic models, often formulated with systems of differential equations, provide valuable insights into transmission dynamics, thresholds such as the basic reproduction number, and the impact of large-scale interventions. However, these models become limited in scenarios where extinction and the role of absolute numbers of individuals are critical. Stochastic models address these situations by capturing the inherent randomness of transmission and the probability of outbreak or eradication. 
+
+ In current work, we developed and analyzed both deterministic and stochastic models for cholera transmission. For the deterministic framework, we derived the basic reproduction number using the next-generation matrix method and performed numerical simulations to explore epidemic trajectories. At the stochastic level, we investigated the model's behavior under the law of large numbers, establish Kolmogorov backward equations to characterize transitions between infectious states, and applied probability generating functions to determine extinction probabilities. Numerical simulations are further used to compare the qualitative and quantitative dynamics of the deterministic and stochastic models, highlighting how parameter values influence outbreak risks. This integrated approach provides deeper insight into cholera transmission dynamics and illustrates the complementary roles of deterministic and stochastic epidemic modeling in guiding control strategies. 
 
 \bigskip\bigskip
 
-\noindent {\subsection*{tba}}{ \textbf{Sascha Franck}}, University of Lübeck \\[2ex] tba 
+\noindent {\subsection*{Spatial infection model with adaptive host immunity}}{ \textbf{Sascha Franck}}, University of Lübeck \\[2ex] We investigate a host-parasite infection, where a host is killed by an attacking parasite in order to reproduce and cannot be used by another parasite again. A classical mathematical model as a branching process on some graph is given by the frog model, where branching only happens on newly visited vertices. In this work we extent the model to include an adaptive immune response of hosts that allows them to prevent an infection and kill the attacking parasite. Precisely, parasites moves independently as simple random walks on an infinite graph and immobile hosts sit on vertices. Whenever a parasite would jump onto a vertex with a host, it tries to infect it and then dies. Each host needs to be attacked a random number, i.i.d.~distributed as some $I$, of times before a succesful infection, where it is killed and new parasites are born at that vertex. The distribution of $I$ encorporates how quickly hosts adapt against infection attempts.  We investigate the speed at which parasites invade the host population on $\mathbb{Z}$, depending on host adaptivity (described by mild conditions on $I$). Also, we establish a phase transition on $\mathbb{Z}^d$ and $\mathbb{T}_d$ in the survival for hosts that either get infected at the first attack with some probability $p$ or can never be infected. 
 
 \bigskip\bigskip
 
-\noindent {\subsection*{tba}}{ \textbf{Julio Ernesto Nava Trejo}}, HU Berlin \\[2ex] tba 
+\noindent {\subsection*{Genealogies under logistic growth}}{ \textbf{Julio Ernesto Nava Trejo}}, HU Berlin \\[2ex] We derive asymptotics for the genealogy of a logistic branching process in the setting where the equilibrium population size is large via a lookdown construction. In three regimes on the tail of the offspring distribution we recover the Kingman, \(\text{Beta}(2-\alpha, \alpha)\) and Bolthausen-Sznitman coalescents as a scaling parameter governing the population size is taken to infinity. This resolves a question asked in [Forien, 2025] who studied the same population process forwards in time and showed convergence of the type frequency process to the corresponding \(\Lambda\)-Fleming-Viot process in each regime. Joint work with Ruairi Garrett. 
 
 \bigskip\bigskip
 
-\noindent {\subsection*{tba}}{ \textbf{Ibrahim Njiasse}}, BTU Cottbus \\[2ex] tba 
+\noindent {\subsection*{Stochastic Optimal Control of an Epidemic Under Partial Information}}{ \textbf{Ibrahim Njiasse}}, BTU Cottbus \\[2ex] In this paper, we address a social planner’s stochastic optimal control problem for a susceptible detected/non-detected infected detected/non-detected recovered hospitalized epidemic model, which has a partially observed state process. The control measures include social distancing, testing, and vaccination. Using a diffusion approximation to describe the epidemic dynamics, we apply a filtering argument to transform the stochastic optimal control problem with a partially observed state process into an eight-dimensional fully observed state process stochastic optimal control problem. This transformed problem is treated as a Markov decision process, and the associated Bellman equation is numerically solved using a backward recursion algorithm coupled with quantization to mitigate the curse of dimensionality. After applying state space discretization, we implement two approaches: the first involves quantization techniques coupled with linear interpolation of the value function on non-grid points, while the second utilizes quantization techniques and parametrization of the value function with educated ansatz functions. Extensive numerical experiments are presented to demonstrate the efficacy of both methods. This is joint work with Florent Ouabo Kamkumo and Ralf Wunderlich 
 
 \bigskip\bigskip
 
@@ -307,9 +309,9 @@ afternoon & Departure, time for research \\
 
 \noindent {\subsection*{The effect of autotoxicity on the temporal dynamics of microbial communities}}{ \textbf{Sabrina Spigno}}, MPI Plön \\[2ex] Gut microbiota population dynamics has widely been described with Generalized Lotka-Volterra (gLV) models (Joseph et al., 2020, Li et al., 2021). While gLV models capture broad dynamical regimes, they fail to incorporate biologically relevant mechanisms such as chemical self-inhibition. Here, we propose an alternative framework based on self-inhibition driven by the accumulation of autotoxic compounds, such as extracellular DNA (Mazzoleni et al., 2015a). Using methods inspired by established techniques used for gLV, we theoretically analyze this general model, aiming to isolate the role of autotoxicity. Numerical simulations across single-species and large-community systems show that autotoxicity alters the dynamics. At small scales, autotoxicity modulates oscillation amplitude and frequency. In large communities, our analysis reveals that increasing the autotoxicity can sustain species coexistence while diluting it allow dominant species to exclude others. To qualitatively support the biological relevance of these theoretical regimes, we analyzed gut microbiota metagenomic data across diverse conditions, finding that rare species are most sensitive to environmental shifts, while certain unhealthy states are marked by the dominance of a single species.
 
- \begin{enumerate} \item T. A. Joseph, L. Shenhav, J. B. Xavier, E. Halperin, and I. Peer, Compositional Lotka-Volterra describes microbial dynamics in the simplex, (in English), Plos Computational Biology, Article vol. 16, no. 5, p. 22, May 2020, Art no. e1007917, doi: 10.1371/journal.pcbi.1007917. 
- \item Jie Li, Xuzhu Shen, YaoTang Li, “Modeling the temporal dynamics of gut microbiota from a local community perspective”, Ecological Modelling, Volume 460, 2021,            109733, ISSN 0304-3800, https: //doi.org/10.1016/j.ecolmodel.2021.109733. 
- \item Mazzoleni, S., Landi, C., Cartenì, F., de Alteriis, E., Giannino, F., Paciello, L., Parascandola, P.,             2015a. A novel process-based model of microbial growth: self-inhibition in Saccharomyces cerevisiae aerobic fed-batch cultures. Microbial Cell Factories 14, 109-109, doi: 10.1186/s12934-015-0295-4. \end{enumerate} 
+ \begin{enumerate} \item T. A. Joseph, L. Shenhav, J. B. Xavier, E. Halperin, and I. Peer, Compositional Lotka-Volterra describes microbial dynamics in the simplex, (in English), Plos Computational Biology, Article vol. 16, no. 5, p. 22, May 2020, Art no. e1007917. 
+ \item Jie Li, Xuzhu Shen, YaoTang Li, “Modeling the temporal dynamics of gut microbiota from a local community perspective”, Ecological Modelling, Volume 460, 2021. 
+ \item Mazzoleni, S., Landi, C., Cartenì, F., de Alteriis, E., Giannino, F., Paciello, L., Parascandola, P.,             2015a. A novel process-based model of microbial growth: self-inhibition in Saccharomyces cerevisiae aerobic fed-batch cultures. Microbial Cell Factories 14, 109-109. \end{enumerate} 
 
 \bigskip\bigskip
 
