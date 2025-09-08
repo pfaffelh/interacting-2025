@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.20)  8 SEP 2025 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.20)  8 SEP 2025 10:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -477,44 +477,44 @@ s with
  []
 
 [10] [11] [12] [13] [14] [15] [16] [17] [18]
-Overfull \hbox (1.40158pt too wide) in paragraph at lines 389--389
+Overfull \hbox (1.40158pt too wide) in paragraph at lines 385--385
 [][]\OT1/cmr/bx/n/14.4 16:30--17:00: Evo-lu-tion-ary dy-nam-ics in graph-struct
 ured
  []
 
 [19] [20] [21]
-Overfull \hbox (25.91666pt too wide) in paragraph at lines 421--421
+Overfull \hbox (25.91666pt too wide) in paragraph at lines 414--414
 [][]\OT1/cmr/bx/n/14.4 11:00--11:30: Multi-Type Birth-Death Pro-cesses with Mea
 n-
  []
 
 [22] [23]
-Overfull \hbox (24.0pt too wide) in alignment at lines 441--445
+Overfull \hbox (24.0pt too wide) in alignment at lines 434--438
  [] [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 445--450
+Overfull \hbox (24.0pt too wide) in alignment at lines 438--443
  [] [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 450--473
+Overfull \hbox (24.0pt too wide) in alignment at lines 443--466
  [] [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 473--493
+Overfull \hbox (24.0pt too wide) in alignment at lines 466--486
  [] [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 493--495
+Overfull \hbox (24.0pt too wide) in alignment at lines 486--488
  [] [] 
  []
 
 [24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
 
  []
 
@@ -522,44 +522,44 @@ File: UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png Graphic file (type
  png)
 <use UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png>
 Package pdftex.def Info: UFR-vorlage-designsystem-typo-farben-V1.99-768x543.png
-  used on input line 503.
+  used on input line 496.
 (pdftex.def)             Requested size: 86.20407pt x 85.35826pt.
 File: Siegel-Uni-Luebeck.svg.png Graphic file (type png)
 <use Siegel-Uni-Luebeck.svg.png>
-Package pdftex.def Info: Siegel-Uni-Luebeck.svg.png  used on input line 505.
+Package pdftex.def Info: Siegel-Uni-Luebeck.svg.png  used on input line 498.
 (pdftex.def)             Requested size: 73.69371pt x 85.35826pt.
-<fdmai.png, id=181, 391.4625pt x 111.41624pt>
+<fdmai.png, id=180, 391.4625pt x 111.41624pt>
 File: fdmai.png Graphic file (type png)
 <use fdmai.png>
-Package pdftex.def Info: fdmai.png  used on input line 509.
+Package pdftex.def Info: fdmai.png  used on input line 502.
 (pdftex.def)             Requested size: 149.95193pt x 42.67912pt.
 File: logo-tsh.jpg Graphic file (type jpg)
 <use logo-tsh.jpg>
-Package pdftex.def Info: logo-tsh.jpg  used on input line 511.
+Package pdftex.def Info: logo-tsh.jpg  used on input line 504.
 (pdftex.def)             Requested size: 138.13109pt x 85.35826pt.
-<dfg.jpg, id=182, 254.6313pt x 32.5215pt>
+<dfg.jpg, id=181, 254.6313pt x 32.5215pt>
 File: dfg.jpg Graphic file (type jpg)
 <use dfg.jpg>
-Package pdftex.def Info: dfg.jpg  used on input line 519.
+Package pdftex.def Info: dfg.jpg  used on input line 512.
 (pdftex.def)             Requested size: 334.17944pt x 42.67912pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--525
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
 \OT1/cmss/m/n/8 cornelia.pokalyuk@uni-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 531.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 524.
 [26 <./fdmai.png (PNG copy)> <./dfg.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 531.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 524.
  (./program.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 531.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 531.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 524.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 524.
 Package rerunfilecheck Info: File `program.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 531.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 524.
  ) 
 Here is how much of TeX's memory you used:
- 7461 strings out of 481239
- 107579 string characters out of 5920377
+ 7460 strings out of 481239
+ 107568 string characters out of 5920377
  383708 words of memory out of 5000000
  22488 multiletter control sequences out of 15000+600000
  542212 words of font info for 61 fonts, out of 8000000 for 9000
@@ -578,10 +578,10 @@ msfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on program.pdf (26 pages, 727217 bytes).
+Output written on program.pdf (26 pages, 725761 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
- 78 named destinations out of 1000 (max. 500000)
+ 250 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
+ 77 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
